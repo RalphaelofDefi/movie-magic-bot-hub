@@ -75,7 +75,7 @@ const HeroSection = () => {
           CINEMOS
           <span className="animate-pulse">BOT</span>
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+        <p className="text-sm md:text-xl mb-8 max-w-2xl mx-auto">
           Download any movie instantly without ads, payments, or hassle. Direct links to your favorite films with a simple command.
         </p>
         

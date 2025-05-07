@@ -127,7 +127,7 @@ const MoviePreview = ({ delay = 0 }) => {
         <p className="text-gray-300 text-xs mb-3">Series: Marvel's Hit-Monkey (Season 2) movie download hd - In New York City, Monkey finds a path to escape his life of killing, while Bryce attempts to repair...</p>
         <div className="w-full h-48 bg-gray-800 rounded-md mb-1 overflow-hidden">
           <img 
-            src="/lovable-uploads/41d1ba38-54d0-47ca-8f7e-8aade39fa238.png" 
+            src="/lovable-uploads/2570e9c7-3f2a-4bf6-8084-5b208dae1a1c.png" 
             alt="Hit-Monkey Poster" 
             className="w-full h-full object-cover"
           />
@@ -185,7 +185,7 @@ const TelegramPreview = () => {
           <>
             <Message text="/movie" time="1:03 PM" isUser isCommand hasCheck delay={500} />
             <Message text="❗ Usage: /movie <movie name>" time="1:03 PM" delay={1000} />
-            <Message text="/movie marvel" time="1:04 PM" isUser isCommand hasCheck delay={2000} />
+            <Message text="/movie Marvel's Hit-Monkey (Season 2)" time="1:04 PM" isUser isCommand hasCheck delay={2000} />
             <Message text="🔍 Searching for movie..." time="1:04 PM" delay={3000} />
             <Message text="🎬 Movie: Series: Marvel's Hit-Monkey (Season 2)" time="1:04 PM" delay={4500} />
             <Message text="🔗 Movie Page: Click Here" time="1:04 PM" delay={5500} />
