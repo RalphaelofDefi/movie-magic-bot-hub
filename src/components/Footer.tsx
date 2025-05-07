@@ -41,7 +41,10 @@ const Footer = () => {
           >
             <h3 className="text-xl font-bold text-white mb-4">Contact</h3>
             <p className="text-gray-400 mb-2">Join our Telegram channel for updates</p>
-            <button className="bg-[#229ED9] text-white px-4 py-2 rounded hover:bg-[#1D8AC0] transition-colors">
+            <button 
+              className="bg-[#229ED9] text-white px-4 py-2 rounded hover:bg-[#1D8AC0] transition-colors"
+              onClick={() => window.open('https://t.me/CinemosBot', '_blank')}
+            >
               Join Telegram
             </button>
           </motion.div>

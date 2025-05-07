@@ -101,6 +101,7 @@ const HeroSection = () => {
           <Button 
             className="bg-cinema-accent hover:bg-cinema-accent/90 text-white px-8 py-6 text-xl rounded-full shadow-lg shadow-cinema-accent/25"
             size="lg"
+            onClick={() => window.open('https://t.me/CinemosBot', '_blank')}
           >
             Try Now <ArrowRight className="ml-2" />
           </Button>
