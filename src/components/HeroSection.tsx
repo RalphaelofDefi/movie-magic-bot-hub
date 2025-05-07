@@ -4,12 +4,14 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import TypingAnimation from './TypingAnimation';
 import { motion } from 'framer-motion';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const HeroSection = () => {
   const filmReelRef = useRef<HTMLDivElement>(null);
   const [command, setCommand] = useState("/movie Inception");
   const commands = ["/movie Inception", "/movie Interstellar", "/movie The Matrix", "/subtitle Avatar"];
   const [commandIndex, setCommandIndex] = useState(0);
+  const isMobile = useIsMobile();
   
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -75,7 +77,7 @@ const HeroSection = () => {
           CINEMOS
           <span className="animate-pulse">BOT</span>
         </h1>
-        <p className="text-sm md:text-xl mb-8 max-w-2xl mx-auto">
+        <p className={`${isMobile ? 'text-[14px] text-left' : 'text-sm'} md:text-xl mb-8 max-w-2xl ${isMobile ? 'mx-0' : 'mx-auto'}`}>
           Download any movie instantly without ads, payments, or hassle. Direct links to your favorite films with a simple command.
         </p>
         
